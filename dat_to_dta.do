@@ -1,4 +1,7 @@
 
+** construct dta files form raw data
+** =================================
+
 ** Loop over all 2008 SIPP panel do files as supplied by NBER
 ** note that the do files of each wave have have been adapted
 ** to work with this script.

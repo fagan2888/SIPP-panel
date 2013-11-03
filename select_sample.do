@@ -100,6 +100,8 @@ wffinwgt
 tftotinc
 epppnum
 wpfinwgt
+eenlevel
+eeducate
 eentaid
 tage
 esex
@@ -127,7 +129,7 @@ foreach wave of numlist 1(1)13 {
 	drop if eppintvw > 2
 
 	** drop if age <15
-	drop if tage < 15
+	/*drop if tage < 15*/
 
 	** keep interesting variables
 	keep `corevars'
